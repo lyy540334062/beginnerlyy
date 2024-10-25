@@ -1,10 +1,17 @@
 Empty file for learning
+
+远程仓库-本地仓库-暂存区-工作区
+
+
 git add . 添加所有文件到暂存区
 git add 文件名 添加指定到暂存区
 git commit -m 'xxx' 
 对于本次提交的描述。（xxx一定要有）
 提交到本地仓库
 
-
 若想要提交到远程仓库：
 git push -u  'url' master
+第二次提交则不需要master
+
+git clone 远程仓库地址
+将代码从远程仓库下载到工作区
